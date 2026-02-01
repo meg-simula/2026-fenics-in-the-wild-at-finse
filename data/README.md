@@ -21,3 +21,7 @@ Follow the conda installation instructions in the readme.md given there. In shor
 Then activate with
 
     `conda activate pvs_transport_env`
+
+Also installed paraview for interactive visualization 
+
+     sudo apt install paraview
