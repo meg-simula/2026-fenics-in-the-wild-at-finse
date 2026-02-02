@@ -25,8 +25,12 @@ Side goal: Use vscode instead of emacs+terminal
 [x] Made Gemini Gem for this Hackathon with info about myself (CV),
     and the causemann2025insilico.pdf (paper). 
 
-[ ] Try MoviePy. sudo apt install python3-moviepy
-
+[/] Try MoviePy.
+    * sudo apt install python3-moviepy. Hm. Issues with imageio_ffmpeg. Stuck here and with flaky internet for some time.
+    * Ok, try updating the environment.yml/conda instead. Oops, and then I did conda env update. Yay, that worked! Now, I can import moviepy. 
+    * But, then there was an isue with ImageMagick. Commented out magic path line (sudo emacs /etc/ImageMagick-6/policy.xml -nw). OK, now I can make a TextClip and CompositeClips. Yay!
+    * Ok, prototype added scripts/movie_story/prototype_moviepy.py 
+    
 [ ] Figure out how to create overlay captions. Should I embed it in
     the video or use some tool to add it after? 
 
