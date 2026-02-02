@@ -50,17 +50,12 @@ Gemini provided a useful story outline (see separate Gem for more
 details). Here are the main headings
 
 | Time | Heading |
-
+-----------------------------------------------
 | 0:00 - 0:10 | The Input: From Scan to Surface
-
 | 0:10 - 0:25 | The Pipeline: Mixed-Dimensional Construction
-
 | 0:25 - 0:40 | The Physics: Flow Drivers
-
 | 0:40 - 0:55 | The Simulation: Tracer Enrichment
-
 | 0:55 - 1:10 | The Insight: Morphology Matters
-
 | 1:10 - 1:25 | Conclusion & Future
 
 ### Pipeline to use
