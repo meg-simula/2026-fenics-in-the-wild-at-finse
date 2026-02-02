@@ -18,13 +18,14 @@ Side goal: Use vscode instead of emacs+terminal
 [/] Figure out good way and workflow to modularize making the video,
     combining separate pieces
 
+**Note**: when working with interactive LLM-assisted coding, it is
+often easier to work with a bunch of standalone scripts than the more
+classical bunch-of-functions-in-a-module. For instance, natural to
+split generating frames script, and movieeditor script. 
+
+[/] Play with what to create myself, what to use genAI for. 
+
 [/] Map out the story: See STORY.md for the Storyboard
-
-[/] Play with what to create myself, what to use genAI for.
-
-[x] Made Gemini Gem for this Hackathon with info about myself (CV),
-    and the causemann2025insilico.pdf paper. See section below for
-    ideas, useful pointers, etc.
 
 [x] Learn MoviePy basics.
 
@@ -32,11 +33,17 @@ Side goal: Use vscode instead of emacs+terminal
 * Ok, try updating the environment.yml/conda instead. Oops, and then I did conda env update. Yay, that worked! Now, I can import moviepy. 
 * But, then there was an isue with ImageMagick. Commented out magic path line (sudo emacs /etc/ImageMagick-6/policy.xml -nw). OK, now I can make a TextClip and CompositeClips. Yay!
 * Ok, prototype added scripts/movie_story/prototype_moviepy.py 
-    
+
+[/] Make the image and image segmentation visualization
+
+* Slow going here for some time. Really miss being able to visualize nii easily. Paraview plugins don't work. pipx install niicat misses python.
+
+* Ok, I'm going all in on the GenAI. This is fascinating. Would be nice with some input on what and how to visualize.
+
+[ ] Make the other separate pieces
+
 [ ] Figure out how to create overlay captions. Should I embed it in
     the video or use some tool to add it after? 
-
-[ ] Make the separate pieces
 
 [ ] Work with Daniel about visualizing simulation results in Blender,
     Mon afternoon.
