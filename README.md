@@ -25,7 +25,7 @@ Side goal: Use vscode instead of emacs+terminal
 [x] Made Gemini Gem for this Hackathon with info about myself (CV),
     and the causemann2025insilico.pdf (paper). 
 
-[/] Try MoviePy.
+[x] Learn MoviePy basics.
 
 * sudo apt install python3-moviepy. Hm. Issues with imageio_ffmpeg. Stuck here and with flaky internet for some time.
 * Ok, try updating the environment.yml/conda instead. Oops, and then I did conda env update. Yay, that worked! Now, I can import moviepy. 
