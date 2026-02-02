@@ -23,7 +23,8 @@ Side goal: Use vscode instead of emacs+terminal
 [/] Play with what to create myself, what to use genAI for.
 
 [x] Made Gemini Gem for this Hackathon with info about myself (CV),
-    and the causemann2025insilico.pdf (paper). 
+    and the causemann2025insilico.pdf paper. See section below for
+    ideas, useful pointers, etc.
 
 [x] Learn MoviePy basics.
 
