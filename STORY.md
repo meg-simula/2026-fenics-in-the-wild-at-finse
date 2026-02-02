@@ -4,6 +4,7 @@
 
 ### Outline of sections
 
+* Title 
 * The data: subject-specific images (MR, ToF, QSM)
 * From images to segmentation
 * From segmentation to meshes
