@@ -8,15 +8,17 @@ Hackathon at Finse.
 To create a video-based standalone visualization of from imaging to
 finite element simulation.
 
+Side goal: Use vscode instead of emacs+terminal
+
 ## Next steps
 
 [x] Decide on an example: use the In-silico molecular transport ... data
     and simulations
 
-[ ] Map out the story: See STORY.md for the Storyboard
-
-[ ] Figure out good way and workflow to modularize making the video,
+[/] Figure out good way and workflow to modularize making the video,
     combining separate pieces
+
+[/] Map out the story: See STORY.md for the Storyboard
 
 [ ] Figure out how to create overlay captions. Should I embed it in
     the video or use some tool to add it after?
