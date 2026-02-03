@@ -8,14 +8,12 @@ Hackathon at Finse.
 To create a video-based standalone visualization of from imaging to
 finite element simulation.
 
-Side goal: Use vscode instead of emacs+terminal
-
 ## Next steps
 
 [x] Decide on an example: use the In-silico molecular transport ... data
     and simulations
 
-[/] Figure out good way and workflow to modularize making the video,
+[x] Figure out good way and workflow to modularize making the video,
     combining separate pieces
 
 **Note**: when working with interactive LLM-assisted coding, it is
@@ -23,7 +21,7 @@ often easier to work with a bunch of standalone scripts than the more
 classical bunch-of-functions-in-a-module. For instance, natural to
 split generating frames script, and movieeditor script. 
 
-[/] Play with what to create myself, what to use genAI for. 
+[x] Play with what to create myself, what to use genAI for. 
 
 [/] Map out the story: See STORY.md for the Storyboard
 
@@ -36,19 +34,20 @@ split generating frames script, and movieeditor script.
 
 [/] Make the image and image segmentation visualization
 
-* Slow going here for some time. Really miss being able to visualize nii easily. Paraview plugins don't work. pipx install niicat misses python.
+* Slow going here for some time. Really miss being able to visualize nii easily. Paraview plugins don't work. pipx install niicat misses python(?). Fix the Paraview plugin by setting PV_PLUGIN_PATH (Thanks Jørgen!) 
 
 * Ok, I'm going all in on the GenAI. This is fascinating. Would be nice with some input on what and how to visualize.
 
+* Ok, I'll aim for a visualization based on showing slices. I tried first with the orthogonal_slices version, but didn't like how that ended up.
+
 [ ] Make the other separate pieces
 
-[ ] Figure out how to create overlay captions. Should I embed it in
-    the video or use some tool to add it after? 
+[x] Figure out how to create overlay captions. Should I embed it in
+    the video or use some tool to add it after? Use TextClip with
+    MoviePy
 
-[ ] Work with Daniel about visualizing simulation results in Blender,
+[-] Work with Daniel about visualizing simulation results in Blender,
     Mon afternoon.
-
-[ ] Prototype Premiere
 
 ## What Gemini said
 
